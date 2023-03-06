@@ -1,0 +1,27 @@
+:root,
+:root.light {
+  --color-bg: #ffffff;
+  --color-fg: #a7a67f;
+  --card-bg-color: #fafafa;
+}
+
+:root.dark {
+  --color-bg: #02030b;
+  --color-fg: #ffffff;
+  --card-bg-color: #243d4e;
+}
+
+body {
+  background-color: var(--color-bg);
+  color: var(--color-fg);
+}
+
+.card {
+  background-color: var(--card-bg-color) !important;
+}
+
+.card-body {
+  background-color: rgb(39, 57, 86);
+  font-family: cursive;
+  text-align: center;
+}
